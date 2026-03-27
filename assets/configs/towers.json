@@ -1,0 +1,40 @@
+{
+  "towers": [
+    {
+      "tower_type": "MachineGun",
+      "name": "Machine Gun Tower",
+      "damage_type": "Bullet",
+      "can_target_air": true,
+      "splash_radius": 0.0,
+      "levels": [
+        { "damage": 10.0, "range": 5.0, "attack_speed": 0.3, "cost": 50 },
+        { "damage": 15.0, "range": 5.5, "attack_speed": 0.25, "cost": 40 },
+        { "damage": 22.0, "range": 6.0, "attack_speed": 0.2, "cost": 60 }
+      ]
+    },
+    {
+      "tower_type": "TeslaCoil",
+      "name": "Tesla Coil",
+      "damage_type": "Electric",
+      "can_target_air": false,
+      "splash_radius": 0.0,
+      "levels": [
+        { "damage": 40.0, "range": 4.0, "attack_speed": 1.5, "cost": 100 },
+        { "damage": 60.0, "range": 4.5, "attack_speed": 1.3, "cost": 75 },
+        { "damage": 90.0, "range": 5.0, "attack_speed": 1.0, "cost": 100 }
+      ]
+    },
+    {
+      "tower_type": "MissileLauncher",
+      "name": "Missile Launcher",
+      "damage_type": "Explosive",
+      "can_target_air": true,
+      "splash_radius": 2.5,
+      "levels": [
+        { "damage": 25.0, "range": 6.0, "attack_speed": 2.0, "cost": 80 },
+        { "damage": 40.0, "range": 6.5, "attack_speed": 1.8, "cost": 60 },
+        { "damage": 60.0, "range": 7.0, "attack_speed": 1.5, "cost": 80 }
+      ]
+    }
+  ]
+}
