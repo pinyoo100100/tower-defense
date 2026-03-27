@@ -1,0 +1,16 @@
+[package]
+name = "tower-defense"
+version = "0.1.0"
+edition = "2021"
+description = "A Tower Defense game inspired by Command & Conquer: Red Alert, built with Bevy ECS"
+license = "MIT"
+
+[dependencies]
+bevy = "0.15"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+rand = "0.8"
+
+# Enable optimizations for dependencies in debug builds for faster runtime
+[profile.dev.package."*"]
+opt-level = 2

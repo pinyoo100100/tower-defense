@@ -1,0 +1,98 @@
+{
+  "waves": [
+    {
+      "wave_number": 1,
+      "groups": [
+        { "enemy_type": "Infantry", "count": 4, "spawn_interval": 1.0 }
+      ],
+      "is_boss_wave": false,
+      "difficulty_scale": 1.0
+    },
+    {
+      "wave_number": 2,
+      "groups": [
+        { "enemy_type": "Infantry", "count": 5, "spawn_interval": 0.9 }
+      ],
+      "is_boss_wave": false,
+      "difficulty_scale": 1.15
+    },
+    {
+      "wave_number": 3,
+      "groups": [
+        { "enemy_type": "Infantry", "count": 6, "spawn_interval": 0.9 },
+        { "enemy_type": "Tank", "count": 2, "spawn_interval": 2.0 }
+      ],
+      "is_boss_wave": false,
+      "difficulty_scale": 1.3
+    },
+    {
+      "wave_number": 4,
+      "groups": [
+        { "enemy_type": "Infantry", "count": 7, "spawn_interval": 0.8 },
+        { "enemy_type": "Tank", "count": 2, "spawn_interval": 2.0 }
+      ],
+      "is_boss_wave": false,
+      "difficulty_scale": 1.45
+    },
+    {
+      "wave_number": 5,
+      "groups": [
+        { "enemy_type": "Infantry", "count": 8, "spawn_interval": 0.8 },
+        { "enemy_type": "Tank", "count": 3, "spawn_interval": 1.8 },
+        { "enemy_type": "AirUnit", "count": 2, "spawn_interval": 1.5 }
+      ],
+      "is_boss_wave": true,
+      "difficulty_scale": 1.6
+    },
+    {
+      "wave_number": 6,
+      "groups": [
+        { "enemy_type": "Infantry", "count": 9, "spawn_interval": 0.7 },
+        { "enemy_type": "Tank", "count": 3, "spawn_interval": 1.8 },
+        { "enemy_type": "AirUnit", "count": 3, "spawn_interval": 1.5 }
+      ],
+      "is_boss_wave": false,
+      "difficulty_scale": 1.75
+    },
+    {
+      "wave_number": 7,
+      "groups": [
+        { "enemy_type": "Infantry", "count": 10, "spawn_interval": 0.7 },
+        { "enemy_type": "Tank", "count": 4, "spawn_interval": 1.5 },
+        { "enemy_type": "AirUnit", "count": 3, "spawn_interval": 1.5 }
+      ],
+      "is_boss_wave": false,
+      "difficulty_scale": 1.9
+    },
+    {
+      "wave_number": 8,
+      "groups": [
+        { "enemy_type": "Infantry", "count": 11, "spawn_interval": 0.6 },
+        { "enemy_type": "Tank", "count": 4, "spawn_interval": 1.5 },
+        { "enemy_type": "AirUnit", "count": 4, "spawn_interval": 1.3 }
+      ],
+      "is_boss_wave": false,
+      "difficulty_scale": 2.05
+    },
+    {
+      "wave_number": 9,
+      "groups": [
+        { "enemy_type": "Infantry", "count": 12, "spawn_interval": 0.6 },
+        { "enemy_type": "Tank", "count": 5, "spawn_interval": 1.3 },
+        { "enemy_type": "AirUnit", "count": 4, "spawn_interval": 1.2 }
+      ],
+      "is_boss_wave": false,
+      "difficulty_scale": 2.2
+    },
+    {
+      "wave_number": 10,
+      "groups": [
+        { "enemy_type": "Infantry", "count": 15, "spawn_interval": 0.5 },
+        { "enemy_type": "Tank", "count": 6, "spawn_interval": 1.2 },
+        { "enemy_type": "AirUnit", "count": 5, "spawn_interval": 1.0 }
+      ],
+      "is_boss_wave": true,
+      "difficulty_scale": 2.5
+    }
+  ]
+}
